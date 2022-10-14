@@ -1,0 +1,239 @@
+#box{
+    width:1080px;
+    height: 617px;
+    position: relative;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+#box_one{
+    width:1080px;
+    height: 617px;
+    background-image: url("../resource/img/background.png");
+    background-color: aliceblue;
+    position: absolute;
+    margin: auto;
+
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+#title{
+    width:400px;
+    height: 294px;
+    background-image: url("../resource/img/name.png");
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 150px;
+    bottom: 250px;
+
+}
+#start{
+    width:170px;
+    height: 76px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 470px;
+    bottom: 0px;
+    z-index: 5;
+
+}
+#star_btn{
+    width:170px;
+    height: 76px;
+    background-image: url("../resource/img/start_bar.png");
+    opacity: 0.8;
+    border: none;
+    z-index: 100;
+}
+#par1{
+    width:300px;
+    height: 130px;
+    background-image: url("../resource/img/par1.png");
+    opacity: 0.8;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0px;
+    bottom: 200px;
+}
+#par2{
+    width:300px;
+    height:130px;
+    background-image: url("../resource/img/par2.png");
+    opacity: 0.8;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 140px;
+    bottom: 0px;
+}
+#checker1{
+    width:300px;
+    height: 300px;
+    position: absolute;
+    margin: auto;
+    left:0px;
+    right: 550px;
+    top: 0px;
+    bottom: 100px;
+}
+.grid1{
+    width:100px;
+    height: 100px;
+    position: absolute;
+    z-index:999;
+    border: none;
+}
+#check1{
+    width:300px;
+    height: 300px;
+    background-color: white;
+    opacity: 0.8;
+    border-top: 5px solid #c93083;
+    border-left: 5px solid #c93083;
+    border-right: 5px solid #c93083;
+    border-bottom: 5px solid #c93083;
+}
+#checker2{
+    width:300px;
+    height: 300px;
+    margin: auto;
+    position: absolute;
+    left:550px;
+    right: 0px;
+    top: 0px;
+    bottom: 100px;
+}
+.grid2{
+    width:100px;
+    height: 100px;
+    position: absolute;
+    z-index:999;
+    border:none;
+}
+#check2{
+    width:300px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    background-color: white;
+    opacity: 0.8;
+    border-top: 5px solid #c93083;
+    border-left: 5px solid #c93083;
+    border-right: 5px solid #c93083;
+    border-bottom: 5px solid #c93083;
+}
+#dice{
+    width:100px;
+    height: 100px;
+    margin: auto;
+    position: absolute;
+    background-image: url("../resource/img/dice.png");
+    left:0px;
+    right: 0px;
+    top: 400px;
+    bottom: 0px;
+    z-index: 999;
+}
+#player1 {
+    width: 200px;
+    height: 67px;
+    margin: auto;
+    position: absolute;
+    background-image: url("../resource/img/player1.png");
+    left: 0px;
+    right: 550px;
+    top: 0px;
+    bottom: 500px;
+}
+#player2 {
+    width: 200px;
+    height: 67px;
+    margin: auto;
+    position: absolute;
+    background-image: url("../resource/img/player2.png");
+    left: 550px;
+    right: 0px;
+    top: 0px;
+    bottom: 500px;
+}
+#head2 {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    position: absolute;
+    background-image: url("../resource/img/head.gif");
+    left: 540px;
+    right: 0px;
+    top: 400px;
+    bottom: 0px;
+}
+#head1 {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    position: absolute;
+    background-image: url("../resource/img/head.gif");
+    left: 0px;
+    right: 540px;
+    top: 400px;
+    bottom: 0px;
+}
+#suc {
+    width: 300px;
+    height: 162px;
+    margin: auto;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top:300px;
+    bottom: 0px;
+    z-index: 2;
+}
+#score_one{
+    position: absolute;
+    right: 290px;
+    bottom: 550px;
+    font-size: 30px;
+
+}
+#score_two{
+    margin: auto;
+    position: absolute;
+    left: 590px;
+    bottom: 550px;
+    font-size: 30px;
+
+}
+#rule_btn{
+    width: 200px;
+    height: 44px;
+    background-image: url("../resource/img/rule.png");
+    position:absolute;
+    top:50px;
+    right:400px;
+}
+#explains{
+    width: 300px;
+    height: 300px;
+    position:fixed;
+    margin: auto;
+    background-color: white;
+    border: 2px solid #c93083;
+    opacity: 0.8;
+    left: 0px;
+    right: 0px;
+    top:0px;
+    bottom: 0px;
+
+}

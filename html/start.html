@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name=”viewport” content=”initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no”>
+    <title>逍遥骰</title>
+    <script type="text/javascript" src="../js/jquery-3.6.1.min.js"></script>
+
+    <audio id="myaudio" src="../resource/backmusic.mp3" controls="controls" autoplay loop="true" hidden="true">
+    </audio>
+    <audio src="../resource/btnmusic.mp3" id="btnmusic" ></audio>
+    <audio src="../resource/dicemusic.mp3" id="dicemusic" ></audio>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body >
+    <div id = "box"></div>
+    <div id = "box_one" >
+        <!-- 标题 -->
+        <div id="title"></div>
+        <!-- 开始按钮 -->
+        <div id="start">
+            <button id="star_btn"></button>
+            <div id="rule_btn">
+                <div id="explain"></div>
+            </div>
+        </div>
+        <!-- 游戏模式选择按钮 -->
+        <div id = "partern1"></div>
+        <div id = "partern2"></div>
+    </div>
+    <!-- 玩家1棋盘格 -->
+    <div id = "checker1">
+        <div class="grid1" id = "grid1-0-0"></div>
+        <div class="grid1" id = "grid1-0-1"></div>
+        <div class="grid1" id = "grid1-0-2"></div>
+        <div class="grid1" id = "grid1-1-0"></div>
+        <div class="grid1" id = "grid1-1-1"></div>
+        <div class="grid1" id = "grid1-1-2"></div>
+        <div class="grid1" id = "grid1-2-0"></div>
+        <div class="grid1" id = "grid1-2-1"></div>
+        <div class="grid1" id = "grid1-2-2"></div>
+    </div>
+    <div id = "checker2">
+        <div class="grid2" id = "grid2-0-0"></div>
+        <div class="grid2" id = "grid2-0-1"></div>
+        <div class="grid2" id = "grid2-0-2"></div>
+        <div class="grid2" id = "grid2-1-0"></div>
+        <div class="grid2" id = "grid2-1-1"></div>
+        <div class="grid2" id = "grid2-1-2"></div>
+        <div class="grid2" id = "grid2-2-0"></div>
+        <div class="grid2" id = "grid2-2-1"></div>
+        <div class="grid2" id = "grid2-2-2"></div>
+    </div>
+    <div id="factor">
+        <div id="dice"></div>
+        <div class="player" id="player1"></div>
+        <div class="player" id="player2"></div>
+        <div id="head1"></div>
+        <div id="head2"></div>
+        <div class="score_tab">
+            <div id="suc"></div>
+            <div id="score_one">得分：</div>
+            <div id="score_two">得分：</div>
+        </div>
+
+    </div>
+</body>
+<!--设置点击按钮操作-->
+<script type="text/javascript" src="../js/state2.js"></script>
+<script type="text/javascript" src="../js/state1.js"></script>
+<script type="text/javascript" src="../js/state3.js"></script>
+</html>
